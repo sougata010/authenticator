@@ -1,0 +1,16 @@
+{
+  "name": "authenticator-bridge",
+  "version": "1.0.0",
+  "description": "Local native bridge to the C++ TOTP Authenticator engine",
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "android/src",
+    "android/build.gradle",
+    "ios",
+    "authenticator-bridge.podspec"
+  ],
+  "peerDependencies": {
+    "react-native": "*"
+  }
+}
